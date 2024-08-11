@@ -5,7 +5,9 @@ function Home() {
   return (
     <div className={styles.container}>
       HELLO!
-      <h1 className={styles.title}>I'm Antoine Rospars</h1>
+      <h1 className={styles.title}>
+        I'm <span>Antoine Rospars</span>
+      </h1>
       <h2 className={styles.description}>
         <Typer />
       </h2>

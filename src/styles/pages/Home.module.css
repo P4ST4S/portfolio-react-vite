@@ -5,9 +5,12 @@
 }
 
 .title {
-  color: #f7be47;
+  color: white;
   font-size: 24px;
   font-weight: bold;
+  span {
+    color: #f7be47;
+  }
 }
 
 .description {
@@ -34,7 +37,7 @@
   background-color: transparent;
   border-radius: 25px;
   border: 1px solid white;
-  & span {
+  span {
     color: white;
   }
 }
