@@ -1,12 +1,18 @@
 .container {
   padding: 20px;
-  border-radius: 8px;
+}
+
+.greeting {
+  color: #f7be47;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .title {
   color: white;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: -1rem;
   span {
     color: #f7be47;
   }
@@ -14,14 +20,16 @@
 
 .description {
   color: #f5f5f5;
-  font-size: 16px;
+  font-size: 32px;
+  margin-top: -1.5rem;
+  font-weight: 300;
 }
 
 .buttonContainer {
   display: flex;
   justify-content: flex-start;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 3rem;
 }
 
 .buttonHire {
@@ -44,4 +52,5 @@
 .buttonTitle {
   color: black;
   margin: 50px 15px;
+  font-weight: 600;
 }
