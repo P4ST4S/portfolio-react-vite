@@ -6,7 +6,7 @@ function Home() {
     <div className={styles.container}>
       <p className={styles.greeting}>HELLO!</p>
       <h1 className={styles.title}>
-        I'm
+        I'm&nbsp;
         <span>
           Antoine
           <br />
