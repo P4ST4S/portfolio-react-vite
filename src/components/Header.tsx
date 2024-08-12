@@ -6,24 +6,63 @@ function Header() {
     <header>
       <nav className={styles.navigation}>
         <h1>
-          <NavLink to="/" end>
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) => (isActive ? styles.active : "")}
+          >
             ANTOINE
           </NavLink>
         </h1>
         <ul className={styles.listLink}>
           <li>
-            <NavLink to="/" end>
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) => (isActive ? styles.active : "")}
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/projects">Projects</NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? styles.active : "")}
+            >
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/skills">Skills</NavLink>
+            <NavLink
+              to="/resume"
+              className={({ isActive }) => (isActive ? styles.active : "")}
+            >
+              Resume
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink
+              to="/skills"
+              className={({ isActive }) => (isActive ? styles.active : "")}
+            >
+              Skills
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/projects"
+              className={({ isActive }) => (isActive ? styles.active : "")}
+            >
+              Projects
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => (isActive ? styles.active : "")}
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>
