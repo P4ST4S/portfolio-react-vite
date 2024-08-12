@@ -1,15 +1,16 @@
 import { NavLink } from "react-router-dom";
+import styles from "../styles/components/Header.module.css";
 
 function Header() {
   return (
     <header>
-      <nav>
+      <nav className={styles.navigation}>
         <h1>
           <NavLink to="/" end>
-            Antoine
+            ANTOINE
           </NavLink>
         </h1>
-        <ul>
+        <ul className={styles.listLink}>
           <li>
             <NavLink to="/" end>
               Home
