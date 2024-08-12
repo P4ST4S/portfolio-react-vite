@@ -6,7 +6,12 @@ function Home() {
     <div className={styles.container}>
       <p className={styles.greeting}>HELLO!</p>
       <h1 className={styles.title}>
-        I'm <span>Antoine Rospars</span>
+        I'm{" "}
+        <span>
+          Antoine
+          <br />
+          Rospars
+        </span>
       </h1>
       <h2 className={styles.description}>
         <Typer />
