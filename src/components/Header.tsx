@@ -5,15 +5,13 @@ function Header() {
   return (
     <header>
       <nav className={styles.navigation}>
-        <h1>
-          <NavLink
-            to="/"
-            end
-            className={({ isActive }) => (isActive ? styles.active : "")}
-          >
-            ANTOINE
-          </NavLink>
-        </h1>
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) => (isActive ? styles.active : "")}
+        >
+          <h1 className={styles.title}>ANTOINE</h1>
+        </NavLink>
         <ul className={styles.listLink}>
           <li>
             <NavLink
