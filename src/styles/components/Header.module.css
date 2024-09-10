@@ -49,3 +49,10 @@
   color: #f7be47;
   border-bottom: 1px solid #f7be47;
 }
+
+.menuIcon {
+  color: #f7be47;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 30px;
+}
